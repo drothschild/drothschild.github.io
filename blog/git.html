@@ -6,16 +6,16 @@
 </head>
 
 <main>
-  <h1>Github, versioning, Utopia </h1>
+  <h1>Github and Versioning</h1>
   <h2>Insightful and Mandatory!</h2>
   <h4>11/12/2015</h4>
 
   <section>
     <p>
-      When I was young and programming(sort of), I made changes without version controlling. Someone asked for a new feature in a database, and I added it without thinking twice, or maybe even once. Also the software I was using had no support for versioning. Because of this, I'd frequently wake up to hear that everything had crashed. If I'd had version control, I could have rolled back the changes without having to pull a backup from the day before. In addition, if I'd kept logs of my changes I'd have known what to undo. And my team(if I'd had one), could have reviewed my code(if the project existed in code, rather than scripting modules and GUI interfaces).
+      When I was young and starting out with programming, I made changes without version controlling. Someone asked for a new feature in a database/interface, and I added it without thinking twice, or maybe even once. Also the software I was using had no support for versioning. Because of this, I'd frequently wake up to hear that everything had crashed. If I'd had version control, I could have rolled back the changes without having to grab a backup tape from the day before. In addition, if I'd kept logs of my changes I'd have known what to undo. And my team(if I'd had one) could have reviewed my code(if the project existed in code, rather than scripting modules and GUI interfaces) and tested it themselves.
     </p>
     <p>
-      I've also played around with Objective C, xCode, and Swift, just following tutorials and doodling one small project, which now no longer works with Swift. If I'd been using Git control in xCode (and yes I know it's baked in- but the tutorials didn't go over it, so I didn't use it), I would have been able to see precisely where I made changes, and roll them back as needed if I'd broken my project.
+      I've also played around with Objective C, xCode, and Swift, just following tutorials and doodling on one small project, which now no longer works with Swift. If I'd been using Git control in xCode (and yes I know it's baked in- but the tutorials didn't go over it, so I didn't use it), I would have been able to see precisely where I made changes, and roll them back as needed if I'd broken my project. When I broke my project, which happened often.
     </p>
       <p>
         Git in particular and version controlling in general also force a concentration on the particulars of change. You have to have a commit message as a part of your workflow, and while you could write "blah blah blah" every time, it takes only a few seconds more to type something coherent and worthwhile.
@@ -27,11 +27,11 @@
     <p>
       HWolff2013 <a href="http://artandlogic.com/2013/02/confessions-of-a-git-skeptic/">writes</a>:
       <blockquote>Git adds extra steps to the flow of content between your local files and the remote repository.  This is Exhibit A for me, as it annoys me every day.  In Subversion, you have the local working copy, and the remote repository.  That’s two states of the code, with clear and distinct purposes.  In Git, you have three more steps in between those two: the staging area, the local repository, and the remote branch.  That’s five states of the code, all of which are different, and all of which you need to understand.</blockquote>
-      Those have, of course, been presented in the course thus far as an advantage: you have to go through careful review and steps in order to change the remote repository. If there are only two stages, then you've eliminated mandatory review and approval of the code (I think- I haven't yet Subversion yet.) But he is right- it is confusing to work with, and the possibility of errors seeping in by making changes in the wrong stage. I accidentally put this very file in the local master branch first and while it was easy to undo, I'm sure it won't be the last time I make that error. There are a number of other points that HWolff2013 goes over but the most common complaint I've seen is over-complexity and confusing terminology.
+      Those have, of course, been presented in the course thus far as an advantage: you have to go through careful review and steps in order to change the remote repository. If there are only two stages, then you've eliminated mandatory review and approval of the code (I think- I haven't yet tried Subversion, and this post is from a year ago, and things change.) But they are right: it is confusing to work with, and the possibility of errors seeping in by making changes in the wrong stage. I accidentally put this very file in the local master branch first and while it was easy to undo, and I'm sure it won't be the last time I make that error. There are a number of other points that HWolff2013 goes over but the most common complaint I've seen is over-complexity and confusing terminology.
     </p>
-    <p>In addition, GitHub isn't Git the software. It's a company, designed to make money. I found complaints that <a href="http://readwrite.com/2014/04/03/git-three-most-heated-debates">pull requests replaced a more complicated, but better system of code review</a>. In addition, users have to pay for private repos. To pick an absurd example, what if GitHub decides tomorrow that the real money is in a simplified IFTTT-like system of scripting and it lets the current system of software repositories die on the vine, or eventually unhost it entirely. Like I said, it's absurd, but I would have said the same thing five years ago about Google abandoning its RSS Reader.</p>
+    <p>In addition, GitHub isn't Git the software. It's a company, designed to make money. Users have to pay for private repos. I found complaints that <a href="http://readwrite.com/2014/04/03/git-three-most-heated-debates">pull requests replaced a more complicated, but better system of code review</a>. To pick an absurd example, what if GitHub decides tomorrow that the real money is in a simplified IFTTT-like system of scripting and it lets the current system of software repositories die on the vine, or even unhosts it entirely. Like I said, it's absurd, but I would have said the same thing five years ago about Google abandoning its RSS Reader.</p>
     <p>
-      Now if you'll excuse me. I have to add this entry, commit, push, pull, merge the pull request, though I'll have to look up exactly what order those steps are.</p>
+      Now if you'll excuse me. I have to add this entry, commit, push, pull, approve the pull,  merge the pull request, pull the request back locally, and delete the old branch though I'm sure I'm skipping a step. </p>
 
 
 
