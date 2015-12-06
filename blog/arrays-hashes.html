@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>Arrays and Hashes</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+<header>
+  <h1>David Rothschild</h1>
+
+          <nav class = "top-navbar">
+
+           <ul>
+            <li><a href="../index.html">Home</a></li>
+             <li><a href="#">About Me</a></li>
+            <li class = "navbar-here"><a href="index.html">Blog</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+
+        </nav>
+      </header>
+  <article>
+    <h2>Arrays and Hashes</h2>
+    <h3>A satisfactory explanation</h3>
+    <p>Arrays and hashes are very similar ways of organizing data in a way that it can be accessed  easily through a number of methods. Arrays are like an list. It's one object or line after another. It can be ordered in different ways. Here's an example:</p>
+    <code>["Johnny", "Dee Dee", "Joey", "Tommy"]</code>
+
+    <p> Hashes are harder to explain, as I found when trying to explain them to my girlfriend. Part of it is the name- I'm sure there's some good technical reason for "hash", but it sounds like a bunch of things mixed up together, like a breakfast hash. I prefer the name other languages use, "dictionary." That brings up an obvious metaphor, of entries in a dictionary, with a word, and then a definition.</p>
+    <p> That isn't far from the actual use. Instead of the indexes that arrays use, hashs have <em>keys</em>, which must be unique. To rewrite the above example:</p>
+      <code>["guitarist" => "Johnny","bassist" => "Dee Dee","vocalist" =>"Joey", "drummer"=> "Tommy"]</code>
+    <p> Both arrays and hashes mix-in the <em>Enumerable</em> module. "Mix-in"s are a powerful way of sharing code between classes. For any class you can simply type: </p>
+    <code>include Enumerable</code>
+    <p> and you can use all the methods of Enumerable. Many of the most used  methods of arrays and hashes are actually part of the enumerable module. For example, you can sum a (numerical) array by using the <em>reduce</em> method.</p>
+    <code>A.reduce(:+)</code>
+    <p>Whereas to sum the values of a hash, you use</p>
+    <code>H.values.reduce(:+)</code>
+    <p>In either case, the method is available thanks to Enumerables. Reduce is a more complicated function than this example indicates(it would return an error if the array contained strings), but it can do powerful things that make up for the fact that there's no sum or factorial.</p>
+    <p>When would you use hashes? When would you use arrays? These are good questions, and what it comes to is, how are you organizing your data. If you just want to maintain an ordered list of values, arrays are the way to go. If you want the values associates with some other value- like a key, values are the way to go. With that you can have a more complex structure. Key value pairs are easier to transfer to XML. Of course you can also make arrays of hashes. Or hashes of arrays</p>
+
+
+    <span>David Rothschild, 12/5/2015</span>
+
+  </article>
+<footer>
+  <hr>
+</footer>
+</body>
+
+<!-- Reflections
+How was it to wireframe and create an HTML page with a pair?
+I found it very smooth and easy to do, though I had done the wireframe initially on my own.
+
+
+Did you find wireframing to be helpful to your development process?
+
+I wouldn't work without in the future. Once I let go of the idea of the wireframe being good looking or anything but the simplest possible representation of the page, it was easy to put together.
+What did you and your pair decide made a good wireframe?
+
+Simplicity was the key, with a lot of whitespace. We each used different wireframing services, though I ended up preferring his service.
+What new semantic elements did you learn about (if any)?
+I mostly learned up of the semantic elements for the next assignment, which I did first (though now the two don't match up, so I have to revise.)
+
+
+ -->
+</html>
