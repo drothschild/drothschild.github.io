@@ -7,7 +7,7 @@ padding-right: 100px;
 
 height: 5em;
 width: 100%;
-background-color: #45B21A;
+background-color: #0F4943;
 
 }
 
@@ -15,7 +15,7 @@ background-color: #45B21A;
    border-style: inset;
    border-width: 2px 0px 0px 0px;
    width: 110%;
-
+background-color: #952F00;
   }
 
 .top-navbar ul
@@ -25,7 +25,7 @@ background-color: #45B21A;
   padding-left: 0px;
   text-align: center;
    display: inline;
-      background-color: #B21AA4;
+      background-color: #952F00;
       text-indent: 0px
 
 }
@@ -34,9 +34,10 @@ background-color: #45B21A;
 .top-navbar li {
   display: inline;
   text-align: left;
-background-color: #B21AA4;
+background-color: #952F00;
 margin: 0px;
  padding: 0px;
+
 
 }
 
@@ -45,9 +46,9 @@ margin: 0px;
     text-align: center;
     margin: 2px;
 
-  color: black;
+  color: white;
   text-decoration: none;
- background-color: #B21AA4;
+ background-color: #952F00;
 }
 
 .navbar-here  {
@@ -55,18 +56,25 @@ margin: 0px;
 }
 .navbar-here a {
        background-color: white;
-  color: black;
+  color: #952F00;
 }
-
-#picture {
+div img{
+    border-color: #952F00;
+  border-width: 20px;
+}
+#picture img {
   padding: 20px;
+  border-color: #952F00;
+  border-width: 20px;
   float: left;
+
 }
 
 #social
 {
   text-align: center;
   float:left;
+  border-width: 20px;
 }
 #social li {
   text-align: left;
@@ -75,11 +83,15 @@ margin: 0px;
 footer {
   border-width: 2px 0px 0px 0px;
   border-style: inset;
+left: 0px;
   width: 110%;
   bottom: 0pt;
   clear: both;
   position: fixed;
-  background-color: #45B21A;
+  background-color: #0F4943;
+}
+footer a{
+  color: #952F00;
 }
 
 
