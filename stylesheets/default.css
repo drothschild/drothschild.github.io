@@ -69,17 +69,29 @@ div img{
   float: left;
 
 }
+form {
+  padding: 20px;
+  border-color: #952F00;
+  border-width: 20px;
+  float: left;
 
+}
 #social
 {
   text-align: center;
   float:left;
   border-width: 20px;
 }
-#social li {
-  text-align: left;
+#social ul
+{
+     display: inline;
+
 }
 
+#social li {
+  text-align: left;
+
+}
 footer {
   border-width: 2px 0px 0px 0px;
   border-style: inset;
@@ -87,7 +99,7 @@ left: 0px;
   width: 110%;
   bottom: 0pt;
   clear: both;
-  position: bounce;
+  position: fixed;
   background-color: #0F4943;
 }
 footer a{
