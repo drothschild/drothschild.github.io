@@ -36,7 +36,8 @@
   <code> a= [1,2,3,4]<br> b= []<br>a.cycle(5){|x| b << x}</code>
   <p> As a result of that code, b is now [1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4]. Now what if we instead did this:
     <code> a= [1,2,3,4]<br> b= []<br>a.cycle{|x| b << x}</code>
-  B would become an infinite size array. Unless of course, your fast reflexes hit "control-c" during one of the cycles. Then it would break at that point and the values in "a" would no longer be shovelled into b.</p>
+    <p>b would become an infinite size array. Unless of course, your fast reflexes hit "control-c" during one of the cycles. Then it would break at that point and the values in "a" would no longer be shovelled into b.</p>
+
 
 
     <span>David Rothschild, December 12th, 2015 </span>
