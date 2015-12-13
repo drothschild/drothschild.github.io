@@ -34,7 +34,7 @@
   <p>Cycles are on the surface a very simple method where a block of code is run for a certain number of times against the elements of ennumerable. Note that this is not a destructive method- you cannot change the elements of the array with this method. If you didn't fill in an "n" for the number of cycles, it will simply run forever, or until you until you break it in some way. </p>
   <p> So for example, you could create a whole new array the following way</p>
   <code> a= [1,2,3,4]<br> b= []<br>a.cycle(5){|x| b << x}</code>
-  <p> As a result of that code, b is now [1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4]. Now what if we instead did this:
+  <p> As a result of that code, b is now [1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4]. Now what if we instead did this:</p>
     <code> a= [1,2,3,4]<br> b= []<br>a.cycle{|x| b << x}</code>
     <p>b would become an infinite size array. Unless of course, your fast reflexes hit "control-c" during one of the cycles. Then it would break at that point and the values in "a" would no longer be shovelled into b.</p>
 
