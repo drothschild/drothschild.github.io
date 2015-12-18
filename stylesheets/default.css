@@ -57,6 +57,8 @@ margin: 0px;
 .navbar-here a {
        background-color: white;
   color: #952F00;
+   border-width: 0px;
+
 }
 div img{
     border-color: #952F00;
@@ -85,6 +87,7 @@ form {
 #social ul
 {
      display: inline;
+    list-style-type: none;
 
 }
 
