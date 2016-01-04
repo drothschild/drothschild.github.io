@@ -71,6 +71,15 @@ div img{
   float: left;
 
 }
+
+#portfolio img {
+  padding: 20px;
+  border-color: #952F00;
+  border-width: 20px;
+  float: center;
+
+}
+
 form {
   padding: 20px;
   border-color: #952F00;
