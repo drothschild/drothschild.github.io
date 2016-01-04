@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>Ruby v. Javascript: Dawn of Something Something</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+<header>
+  <h1>David Rothschild</h1>
+
+          <nav class = "top-navbar">
+
+           <ul>
+            <li><a href="../index.html">Home</a></li>
+             <li><a href="../about_me.html">About Me</a></li>
+            <li class = "navbar-here"><a href="index.html">Blog</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+           </ul>
+
+        </nav>
+      </header>
+  <article>
+    <h2>Ruby v. JavaScript </h2>
+    <h3>Getting Loopy</h3>
+
+    <p>JavaScript lacks the sheer variety of loops that Ruby has. If you loved the ease of the <code>.each do |variable|</code> for going over an array or hash,  get ready for disappointment. #Reject, #Replace, #Select, #All?, #Min, #Max... None of them are implemented directly in Javascript. Instead there is just <code>while</code> and <code>for</code>.</p>
+    <p>A <code>while</code> loop works the same way it does in Ruby: running a block of code until a condition evaluates as false. And <code>for</code> follow this classic construction:</p>
+    <blockquote><pre>for (var i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+</pre></blockquote>
+  <p>That will loop through and log each value of an array to the console. Get used to typing that a lot.  </p>
+
+    <p>But there is hope yet. JavaScript is flexible and Object Oriented, and even its functions count as objects. So you can create new functions to recreate the experience. It's gone over in a number of places on the internet, including Devbootcamp's own documentation, and in  <a href="http://eloquentjavascript.net/05_higher_order.html">Eloquent JavaScript</a>,but you can write a new <code>ForEach</code> method.
+    <blockquote><pre>function forEach(array, action) {
+  for (var i = 0; i < array.length; i++)
+    action(array[i]);
+}</pre></blockquote>
+<p>Once we introduce this function into our JavaScript node, we can rewrite the previous awkward loop as:</p>
+<blockquote><pre>    <blockquote><pre>forEach(array, console.log)</pre></blockquote></pre></blockquote>
+      <p>And just like that, we are freed from the tyranny of the counter <code>i</code>. JavaScript will never have the readability of something like Ruby, where the code can look much like English. But it is an incredible flexible language and we can use that flexibility to our advantage.</p>
+
+    <span>David Rothschild, January 3, 2016</span>
+
+  </article>
+<footer>
+  <hr>
+</footer>
+</body>
+
+</html>
