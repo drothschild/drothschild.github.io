@@ -1,37 +1,16 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="utf-8">
-  <title>Ruby v. Javascript: Dawn of Something Something</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-</head>
-<body>
-<header>
-  <h1>David Rothschild</h1>
-
-          <nav class = "top-navbar">
-
-           <ul>
-            <li><a href="../index.html">Home</a></li>
-             <li><a href="../about_me.html">About Me</a></li>
-            <li class = "navbar-here"><a href="index.html">Blog</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-           </ul>
-
-        </nav>
-      </header>
-  <article>
-    <h2>Ruby v. JavaScript </h2>
-    <h3>Getting Loopy</h3>
-
-    <p>JavaScript lacks the sheer variety of loops that Ruby has. If you loved the ease of the <code>.each do |variable|</code> for going over an array or hash,  get ready for disappointment. #Reject, #Replace, #Select, #All?, #Min, #Max... None of them are implemented directly in Javascript. Instead there is just <code>while</code> and <code>for</code>.</p>
+---
+layout: post
+title:  Ruby vs. Javascript
+subtitle: Getting Loopy
+date:   2015-12-05 13:40:23
+categories: ruby, javascript
+tags: ruby, javascript, dbc
+---
+  <p>JavaScript lacks the sheer variety of loops that Ruby has. If you loved the ease of the <code>.each do |variable|</code> for going over an array or hash,  get ready for disappointment. #Reject, #Replace, #Select, #All?, #Min, #Max... None of them are implemented directly in Javascript.<!--more--> Instead there is just <code>while</code> and <code>for</code>.</p>
     <p>A <code>while</code> loop works the same way it does in Ruby: running a block of code until a condition evaluates as false. And <code>for</code> follow this classic construction:</p>
-    <blockquote><pre>for (var i = 0; i < array.length; i++) {
+    <blockquote>{% highlight ruby %}for (var i = 0; i < array.length; i++) {
   console.log(array[i]);
-}
+}{% endhighlight %}
 </pre></blockquote>
   <p>That will loop through and log each value of an array to the console. Get used to typing that a lot.  </p>
 

@@ -1,0 +1,14 @@
+# Site settings
+title: David Rothschild's Site
+email: david@rothschildsolutions.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my tech blog and portfolio
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://drothschild.github.io" # the base hostname & protocol for your site
+twitter_username: suckersapien
+github_username:  drothschild
+facebook_username:  drothschild
+linkedin_username: drothschild1
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+# Build settings
+markdown: kramdown

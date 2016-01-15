@@ -1,0 +1,16 @@
+---
+layout: post
+title:  NoSQL For You!
+
+date:   2016-01-10 13:40:23
+categories: nosql
+tags: nosql, dbc
+---
+
+    <p>NoSQL, like the band New Pornographers, has a perhaps misleading name. It's often not absent Structured Query Language, but instead can use other data query structures as well as SQL. Some have proposed that its acronym stands for "Not Only SQL." Some of the founding NoSQL databases are Voldemort, Cassandra, Dynomite, HBase, Hypertable, CouchDB, and MongoDB. It's an umbrella term rather than a strict definition of databases. <!--more--> </p>
+    <p>It's difficult having just studied schemas and relationships, to define databases that eskew those concepts entirely, but they are incredibly popular right now, and the backbone of Facebook, Google, and Amazon Web Services. Odds are, you have a NoSQL database open in another tab right now. "Big Data" thrives on NoSQL.</p>
+    <p>One way to look at it is that this method eliminates the need for join tables. In the classic example of an purchase order with line items, the line item table can be directly embedded into the order.In addition, the role of the key changes here. The key to a record is system-wide, rather than just being in relation to the individual table.</p>
+    <p>Another form of NoSQL is a "Document Database," where the primary metaphor is the document. For example, a blog post may has stored within it both the text of the post itself and the comments are stored within the blogpost. These documents are then stored inside a "collection," which is similar to, but distinct from a table. Each document can have a completely different data structure.</p>
+    <p>Or a NoSQL database can take the form of key-value pairs. Luckily, we already studied key-value pairs in relation to hashes, objects and dictionaries. As with them, the key is a unique attribute name that is linked to a value. The keys themselves can frequently be ordered.</p>
+    <p>Or you could be using a graph database, for data where the structure is best represented in a graph. Or a columnar database, which uses 'families' of flexible columns that can represent an unknown number of rows.</p>
+    <p>We probably won't be working with NoSQL databases as part of DevBootcamp. They're generally best for large datasets that can grow at a viral rate, or data that needs to be spread horizontally across numerous servers. SQL databases are still very much a going concern. But they are important to know about. </p>
