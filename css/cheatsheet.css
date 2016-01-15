@@ -1,3 +1,13 @@
+/*.article {
+ width: 1170px;
+  margin: 0 auto;
+}
+
+.post {
+ width: 1170px;
+  margin: 0 auto;
+}
+*/
 body {
   width: 1170px;
   margin: 0 auto;
@@ -17,14 +27,7 @@ h1 {
   width: 45%;
   padding: 0 15px;
 }
-/*article:nth-child(even) {
-/*  background-color: gray;
-*/
-/*    border-width: thin;
-    border-color: black;
-    border-style: solid;
-}
-*/
+
 
 article:nth-child(odd) {
   background-color: #CCC;
