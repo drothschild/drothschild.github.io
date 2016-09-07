@@ -1,0 +1,27 @@
+[
+	{
+		"name": "ModResume",
+		"image": "modresume.jpg",
+		"url": "http://modresume.heroku.com",
+		"source": "https://github.com/drothschild/ModResume",
+		"date": "March 2016",
+		"tags": ["Rails", "JQueryUI", "Javascript"]
+	},
+	{
+		"name": "Curbcuts",
+		"image": "curbcut.jpg",
+		"url": "https://curbcut.herokuapp.com",
+		"source": "https://github.com/drothschild/curb-cut-server",
+		"date": "July 2016",
+		"tags": ["Rails","Javascript"]
+	},
+	{
+		"name": "Abel Quotes",
+		"image": "quotes.jpg",
+		"url": "#",
+		"source": "#",
+		"date": "June 2008",
+		"tags": ["PHP","SQL"]
+	},
+	
+]

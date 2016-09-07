@@ -8,13 +8,13 @@ permalink: /portfolio/
 
   <ul class="post-list">
     {% for page in site.pages %}
-    {% if page.tags"%}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        </h2>
-        {{ page.excerpt }}
-      </li>
+      {% if page.tags%}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h2>
+          {{ page.excerpt }}
+        </li>
       {% endif %}
     {% endfor %}
   </ul>
