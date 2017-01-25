@@ -3,7 +3,7 @@ description: My Tech Blog/Portfolio
 author: David Rothschild
 logo: 
 github: https://github.com/drothschild
-about: Software Engineer
+about: Web Developer
 
 baseurl: 
 url: 
@@ -24,3 +24,6 @@ per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
+
+redirects: yes
+
