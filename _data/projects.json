@@ -1,35 +1,42 @@
 [
-	{
-		"name": "MatchFace",
-		"image": "matchnomineetoquote.jpg",
-		"url": "http://matchnomineetoquote.com/",
-		"source": "https://github.com/drothschild/match-face-to-quote",
-		"date": "January 2017",
-		"tags": ["React","Javscript", "AWS"]
-	},
-	{
-		"name": "ModResume",
-		"image": "modresume.jpg",
-		"url": "http://modresume.heroku.com",
-		"source": "https://github.com/drothschild/ModResume",
-		"date": "March 2016",
-		"tags": ["Rails", "JQueryUI", "Javascript"]
-	},
-	{
-		"name": "Curbcuts",
-		"image": "curbcut.jpg",
-		"url": "https://curbcut.herokuapp.com",
-		"source": "https://github.com/drothschild/curb-cut-server",
-		"date": "July 2016",
-		"tags": ["Rails","Javascript"]
-	},
-	{
-		"name": "Abel Quotes",
-		"image": "quotes.jpg",
-		"url": "#",
-		"source": "#",
-		"date": "June 2012",
-		"tags": ["PHP","SQL"]
-	}
-	
+    {
+        "name": "Outmatched",
+        "image": "outmatched.png",
+        "url": "http://outmatched.herokuapp.com/",
+        "source": "#",
+        "date": "August 2017",
+        "tags": ["React", "Javscript", "Redux"]
+    },
+    {
+        "name": "MatchFace",
+        "image": "matchnomineetoquote.jpg",
+        "url": "http://matchnomineetoquote.com/",
+        "source": "https://github.com/drothschild/match-face-to-quote",
+        "date": "January 2017",
+        "tags": ["React", "Javscript", "AWS"]
+    },
+    {
+        "name": "ModResume",
+        "image": "modresume.jpg",
+        "url": "http://modresume.heroku.com",
+        "source": "https://github.com/drothschild/ModResume",
+        "date": "March 2016",
+        "tags": ["Rails", "JQueryUI", "Javascript"]
+    },
+    {
+        "name": "Curbcuts",
+        "image": "curbcut.jpg",
+        "url": "https://curbcut.herokuapp.com",
+        "source": "https://github.com/drothschild/curb-cut-server",
+        "date": "July 2016",
+        "tags": ["Rails", "Javascript"]
+    },
+    {
+        "name": "Abel Quotes",
+        "image": "quotes.jpg",
+        "url": "#",
+        "source": "#",
+        "date": "June 2012",
+        "tags": ["PHP", "SQL"]
+    }
 ]
